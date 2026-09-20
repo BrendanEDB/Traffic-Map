@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ADMU Live Checkbox Traffic Map</title>
     
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="https://cloudflare.com"></script>
-
+  
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cloudflare.com"></script>
 
     <style>
         html, body, #map { 
@@ -39,23 +39,27 @@
     <div id="map"></div>
 
     <script>
+        
         const map = L.map('map').setView([14.639537, 121.078540], 16); 
 
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '© OpenStreetMap contributors'
         }).addTo(map);
 
+        
         const SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRrhXbfqYyiNZTk-n89SKthWzK8qojVKhg92g_bxQmqzCxa1jQ05hJbsm9bQ8WDHwIvnJ0u03awlmNq/pubhtml";
         
         const GEOJSON_FILE = "roads.geojson"; 
 
+  
         const trafficColors = {
-            "light": "#22c55e",       // Vibrant Green
-            "moderate": "#eab308",    // Warning Yellow
-            "heavy": "#ef4444",       // Alert Red
-            "no_data": "#9ca3af"      // Muted Gray
+            "light": "#22c55e",       
+            "moderate": "#eab308",    
+            "heavy": "#ef4444",       
+            "no_data": "#9ca3af"      
         };
 
+ 
         Promise.all([
             fetch(GEOJSON_FILE).then(res => res.json()),
             new Promise((resolve) => {
@@ -69,9 +73,9 @@
             
             const roadTrafficMap = {};
 
+     
             sheetData.forEach(row => {
                 
-                // Process 'Light Traffic' Checkbox Column
                 if (row['Light Traffic']) {
                     const roadsList = row['Light Traffic'].split(',');
                     roadsList.forEach(road => {
@@ -80,7 +84,6 @@
                     });
                 }
 
-                // Process 'Moderate Traffic' Checkbox Column
                 if (row['Moderate Traffic']) {
                     const roadsList = row['Moderate Traffic'].split(',');
                     roadsList.forEach(road => {
@@ -89,7 +92,6 @@
                     });
                 }
 
-                // Process 'Heavy Traffic' Checkbox Column
                 if (row['Heavy Traffic']) {
                     const roadsList = row['Heavy Traffic'].split(',');
                     roadsList.forEach(road => {
@@ -99,6 +101,7 @@
                 }
             });
 
+ 
             L.geoJSON(geojsonData, {
                 style: function (feature) {
                     const roadName = feature.properties.name ? feature.properties.name.trim().toLowerCase() : "";
@@ -126,6 +129,7 @@
                     }
                 }
             }).addTo(map);
+
 
             const legend = L.control({position: 'bottomright'});
             legend.onAdd = function () {
