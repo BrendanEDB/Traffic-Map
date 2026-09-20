@@ -1,0 +1,2164 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.0749483,
+                        14.6359107,
+                        0
+                    ],
+                    [
+                        121.0749444,
+                        14.6359975,
+                        0
+                    ],
+                    [
+                        121.0747415,
+                        14.6361711,
+                        0
+                    ],
+                    [
+                        121.0747552,
+                        14.6367298,
+                        0
+                    ],
+                    [
+                        121.0747786,
+                        14.6374182,
+                        0
+                    ],
+                    [
+                        121.0748001,
+                        14.637641,
+                        0
+                    ],
+                    [
+                        121.0747025,
+                        14.6377504,
+                        0
+                    ],
+                    [
+                        121.0746655,
+                        14.6381789,
+                        0
+                    ],
+                    [
+                        121.0747162,
+                        14.6392273,
+                        0
+                    ],
+                    [
+                        121.0747591,
+                        14.6400103,
+                        0
+                    ],
+                    [
+                        121.0747786,
+                        14.6404015,
+                        0
+                    ],
+                    [
+                        121.0747845,
+                        14.640456,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Outer West Diversion Rd.",
+                "styleUrl": "#line-673AB7-1200-nodesc",
+                "styleHash": "-60354701",
+                "styleMapHash": {
+                    "normal": "#line-673AB7-1200-nodesc-normal",
+                    "highlight": "#line-673AB7-1200-nodesc-highlight"
+                },
+                "stroke": "#673ab7",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.0747763,
+                        14.6374321,
+                        0
+                    ],
+                    [
+                        121.0747022,
+                        14.637483,
+                        0
+                    ],
+                    [
+                        121.0746583,
+                        14.637601,
+                        0
+                    ],
+                    [
+                        121.0746632,
+                        14.6376784,
+                        0
+                    ],
+                    [
+                        121.0747025,
+                        14.6377504,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Outer West Diversion Rd.",
+                "styleUrl": "#line-673AB7-1200-nodesc",
+                "styleHash": "-60354701",
+                "styleMapHash": {
+                    "normal": "#line-673AB7-1200-nodesc-normal",
+                    "highlight": "#line-673AB7-1200-nodesc-highlight"
+                },
+                "stroke": "#673ab7",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.0748009,
+                        14.6379167,
+                        0
+                    ],
+                    [
+                        121.0748067,
+                        14.6381979,
+                        0
+                    ],
+                    [
+                        121.0748243,
+                        14.6384093,
+                        0
+                    ],
+                    [
+                        121.0749062,
+                        14.6401303,
+                        0
+                    ],
+                    [
+                        121.0749062,
+                        14.640187,
+                        0
+                    ],
+                    [
+                        121.075075,
+                        14.6402719,
+                        0
+                    ],
+                    [
+                        121.075586,
+                        14.6403634,
+                        0
+                    ],
+                    [
+                        121.0756611,
+                        14.6404537,
+                        0
+                    ],
+                    [
+                        121.0756931,
+                        14.6405264,
+                        0
+                    ],
+                    [
+                        121.0756892,
+                        14.640619,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Inner West Diversion Rd.",
+                "styleUrl": "#line-0097A7-1200-nodesc",
+                "styleHash": "38c155df",
+                "styleMapHash": {
+                    "normal": "#line-0097A7-1200-nodesc-normal",
+                    "highlight": "#line-0097A7-1200-nodesc-highlight"
+                },
+                "stroke": "#0097a7",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.0749062,
+                        14.640187,
+                        0
+                    ],
+                    [
+                        121.0747729,
+                        14.6400428,
+                        0
+                    ],
+                    [
+                        121.0747597,
+                        14.6400376,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Inner West Diversion Rd.",
+                "styleUrl": "#line-0097A7-1200-nodesc",
+                "styleHash": "38c155df",
+                "styleMapHash": {
+                    "normal": "#line-0097A7-1200-nodesc-normal",
+                    "highlight": "#line-0097A7-1200-nodesc-highlight"
+                },
+                "stroke": "#0097a7",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.0747845,
+                        14.640456,
+                        0
+                    ],
+                    [
+                        121.07478,
+                        14.6405203,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Outer West Diversion Rd.",
+                "styleUrl": "#line-673AB7-1200-nodesc",
+                "styleHash": "-60354701",
+                "styleMapHash": {
+                    "normal": "#line-673AB7-1200-nodesc-normal",
+                    "highlight": "#line-673AB7-1200-nodesc-highlight"
+                },
+                "stroke": "#673ab7",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.0749514,
+                        14.6358634,
+                        0
+                    ],
+                    [
+                        121.0749483,
+                        14.6359107,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Outer West Diversion Rd.",
+                "styleUrl": "#line-673AB7-1200-nodesc",
+                "styleHash": "-60354701",
+                "styleMapHash": {
+                    "normal": "#line-673AB7-1200-nodesc-normal",
+                    "highlight": "#line-673AB7-1200-nodesc-highlight"
+                },
+                "stroke": "#673ab7",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.0745624,
+                        14.6358235,
+                        0
+                    ],
+                    [
+                        121.0747311,
+                        14.6358362,
+                        0
+                    ],
+                    [
+                        121.0760042,
+                        14.6358966,
+                        0
+                    ],
+                    [
+                        121.0763775,
+                        14.6359235,
+                        0
+                    ],
+                    [
+                        121.0765406,
+                        14.635965,
+                        0
+                    ],
+                    [
+                        121.0766586,
+                        14.6360117,
+                        0
+                    ],
+                    [
+                        121.0768485,
+                        14.6361498,
+                        0
+                    ],
+                    [
+                        121.0770001,
+                        14.6362479,
+                        0
+                    ],
+                    [
+                        121.0771318,
+                        14.6364414,
+                        0
+                    ],
+                    [
+                        121.0775101,
+                        14.6368987,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Father Masterson Dr (To Grade School)",
+                "styleUrl": "#line-0288D1-1200-nodesc",
+                "styleHash": "1a7ab7ff",
+                "styleMapHash": {
+                    "normal": "#line-0288D1-1200-nodesc-normal",
+                    "highlight": "#line-0288D1-1200-nodesc-highlight"
+                },
+                "stroke": "#0288d1",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.0775101,
+                        14.6368987,
+                        0
+                    ],
+                    [
+                        121.0786942,
+                        14.6385544,
+                        0
+                    ],
+                    [
+                        121.0788971,
+                        14.6387922,
+                        0
+                    ],
+                    [
+                        121.0792209,
+                        14.6392792,
+                        0
+                    ],
+                    [
+                        121.0793613,
+                        14.6397623,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Father Masterson Dr (To Grade School)",
+                "styleUrl": "#line-0288D1-1200-nodesc",
+                "styleHash": "1a7ab7ff",
+                "styleMapHash": {
+                    "normal": "#line-0288D1-1200-nodesc-normal",
+                    "highlight": "#line-0288D1-1200-nodesc-highlight"
+                },
+                "stroke": "#0288d1",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.079366,
+                        14.6398302,
+                        0
+                    ],
+                    [
+                        121.0795221,
+                        14.6402794,
+                        0
+                    ],
+                    [
+                        121.0800878,
+                        14.6411815,
+                        0
+                    ],
+                    [
+                        121.0804623,
+                        14.6418043,
+                        0
+                    ],
+                    [
+                        121.0805481,
+                        14.6419855,
+                        0
+                    ],
+                    [
+                        121.0805716,
+                        14.6425102,
+                        0
+                    ],
+                    [
+                        121.0805989,
+                        14.6430957,
+                        0
+                    ],
+                    [
+                        121.0806067,
+                        14.643376,
+                        0
+                    ],
+                    [
+                        121.0805794,
+                        14.6434628,
+                        0
+                    ],
+                    [
+                        121.0806106,
+                        14.6446405,
+                        0
+                    ],
+                    [
+                        121.0805755,
+                        14.6447311,
+                        0
+                    ],
+                    [
+                        121.0805169,
+                        14.6447915,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Father Masterson Dr (To JHS and SHS)",
+                "styleUrl": "#line-A52714-1200-nodesc",
+                "styleHash": "-8db2fa1",
+                "styleMapHash": {
+                    "normal": "#line-A52714-1200-nodesc-normal",
+                    "highlight": "#line-A52714-1200-nodesc-highlight"
+                },
+                "stroke": "#a52714",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.0806067,
+                        14.643376,
+                        0
+                    ],
+                    [
+                        121.0806769,
+                        14.6434801,
+                        0
+                    ],
+                    [
+                        121.0806759,
+                        14.6436264,
+                        0
+                    ],
+                    [
+                        121.0806871,
+                        14.6447596,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "JHS Drop-off & Pick-up",
+                "styleUrl": "#line-880E4F-1200-nodesc",
+                "styleHash": "2ad8c1df",
+                "styleMapHash": {
+                    "normal": "#line-880E4F-1200-nodesc-normal",
+                    "highlight": "#line-880E4F-1200-nodesc-highlight"
+                },
+                "stroke": "#880e4f",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.0806871,
+                        14.6447596,
+                        0
+                    ],
+                    [
+                        121.0806625,
+                        14.6447784,
+                        0
+                    ],
+                    [
+                        121.0805942,
+                        14.644803,
+                        0
+                    ],
+                    [
+                        121.0805357,
+                        14.644819,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "JHS Drop-off & Pick-up",
+                "styleUrl": "#line-880E4F-1200-nodesc",
+                "styleHash": "2ad8c1df",
+                "styleMapHash": {
+                    "normal": "#line-880E4F-1200-nodesc-normal",
+                    "highlight": "#line-880E4F-1200-nodesc-highlight"
+                },
+                "stroke": "#880e4f",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.0807552,
+                        14.644883,
+                        0
+                    ],
+                    [
+                        121.0807318,
+                        14.645972,
+                        0
+                    ],
+                    [
+                        121.0807181,
+                        14.6464662,
+                        0
+                    ],
+                    [
+                        121.0807083,
+                        14.6467795,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "ASHS Rd.",
+                "styleUrl": "#line-AFB42B-1200-nodesc",
+                "styleHash": "-712c2e1",
+                "styleMapHash": {
+                    "normal": "#line-AFB42B-1200-nodesc-normal",
+                    "highlight": "#line-AFB42B-1200-nodesc-highlight"
+                },
+                "stroke": "#afb42b",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.0807538,
+                        14.6448705,
+                        0
+                    ],
+                    [
+                        121.0807509,
+                        14.6448327,
+                        0
+                    ],
+                    [
+                        121.0806845,
+                        14.6448327,
+                        0
+                    ],
+                    [
+                        121.0805538,
+                        14.6448308,
+                        0
+                    ],
+                    [
+                        121.0804173,
+                        14.6448252,
+                        0
+                    ],
+                    [
+                        121.0803198,
+                        14.6448205,
+                        0
+                    ],
+                    [
+                        121.0802593,
+                        14.6448176,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "HS Drwy",
+                "styleUrl": "#line-4E342E-1200-nodesc",
+                "styleHash": "-293759e1",
+                "styleMapHash": {
+                    "normal": "#line-4E342E-1200-nodesc-normal",
+                    "highlight": "#line-4E342E-1200-nodesc-highlight"
+                },
+                "stroke": "#4e342e",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.0802466,
+                        14.6448181,
+                        0
+                    ],
+                    [
+                        121.0802364,
+                        14.6448172,
+                        0
+                    ],
+                    [
+                        121.0802354,
+                        14.6447679,
+                        0
+                    ],
+                    [
+                        121.0802349,
+                        14.6447325,
+                        0
+                    ],
+                    [
+                        121.0802228,
+                        14.6428148,
+                        0
+                    ],
+                    [
+                        121.0802362,
+                        14.6425169,
+                        0
+                    ],
+                    [
+                        121.0802908,
+                        14.6423999,
+                        0
+                    ],
+                    [
+                        121.0803669,
+                        14.642398,
+                        0
+                    ],
+                    [
+                        121.0804059,
+                        14.6423225,
+                        0
+                    ],
+                    [
+                        121.0805034,
+                        14.6422753,
+                        0
+                    ],
+                    [
+                        121.0805522,
+                        14.6422753,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "HS Circumferential Rd",
+                "styleUrl": "#line-FFEA00-1200-nodesc",
+                "styleHash": "12286fff",
+                "styleMapHash": {
+                    "normal": "#line-FFEA00-1200-nodesc-normal",
+                    "highlight": "#line-FFEA00-1200-nodesc-highlight"
+                },
+                "stroke": "#ffea00",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.0806854,
+                        14.6468153,
+                        0
+                    ],
+                    [
+                        121.0805079,
+                        14.6466907,
+                        0
+                    ],
+                    [
+                        121.0804025,
+                        14.6465737,
+                        0
+                    ],
+                    [
+                        121.0802543,
+                        14.6463775,
+                        0
+                    ],
+                    [
+                        121.0801548,
+                        14.6462793,
+                        0
+                    ],
+                    [
+                        121.0801002,
+                        14.6461302,
+                        0
+                    ],
+                    [
+                        121.080108,
+                        14.6460264,
+                        0
+                    ],
+                    [
+                        121.0801821,
+                        14.6459868,
+                        0
+                    ],
+                    [
+                        121.0802387,
+                        14.6458981,
+                        0
+                    ],
+                    [
+                        121.0802211,
+                        14.6457641,
+                        0
+                    ],
+                    [
+                        121.080225,
+                        14.6455621,
+                        0
+                    ],
+                    [
+                        121.0802289,
+                        14.6448553,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "HS Circumferential Rd",
+                "styleUrl": "#line-FFEA00-1200-nodesc",
+                "styleHash": "12286fff",
+                "styleMapHash": {
+                    "normal": "#line-FFEA00-1200-nodesc-normal",
+                    "highlight": "#line-FFEA00-1200-nodesc-highlight"
+                },
+                "stroke": "#ffea00",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.0801028,
+                        14.6460052,
+                        0
+                    ],
+                    [
+                        121.0800384,
+                        14.6459844,
+                        0
+                    ],
+                    [
+                        121.0799916,
+                        14.6459637,
+                        0
+                    ],
+                    [
+                        121.0799779,
+                        14.6459127,
+                        0
+                    ],
+                    [
+                        121.0799682,
+                        14.6457579,
+                        0
+                    ],
+                    [
+                        121.0799701,
+                        14.6455692,
+                        0
+                    ],
+                    [
+                        121.0799955,
+                        14.6455277,
+                        0
+                    ],
+                    [
+                        121.0801125,
+                        14.6454748,
+                        0
+                    ],
+                    [
+                        121.0802237,
+                        14.6454296,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "HS Circumferential Rd",
+                "styleUrl": "#line-FFEA00-1200-nodesc",
+                "styleHash": "12286fff",
+                "styleMapHash": {
+                    "normal": "#line-FFEA00-1200-nodesc-normal",
+                    "highlight": "#line-FFEA00-1200-nodesc-highlight"
+                },
+                "stroke": "#ffea00",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.0801028,
+                        14.6460052,
+                        0
+                    ],
+                    [
+                        121.0801281,
+                        14.6459882,
+                        0
+                    ],
+                    [
+                        121.0801203,
+                        14.6459052,
+                        0
+                    ],
+                    [
+                        121.0801203,
+                        14.6456051,
+                        0
+                    ],
+                    [
+                        121.0801125,
+                        14.6454748,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "HS Circumferential Rd",
+                "styleUrl": "#line-FFEA00-1200-nodesc",
+                "styleHash": "12286fff",
+                "styleMapHash": {
+                    "normal": "#line-FFEA00-1200-nodesc-normal",
+                    "highlight": "#line-FFEA00-1200-nodesc-highlight"
+                },
+                "stroke": "#ffea00",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.0763708,
+                        14.6359456,
+                        0
+                    ],
+                    [
+                        121.0763591,
+                        14.6360787,
+                        0
+                    ],
+                    [
+                        121.0762381,
+                        14.63609,
+                        0
+                    ],
+                    [
+                        121.0760548,
+                        14.636073,
+                        0
+                    ],
+                    [
+                        121.0758236,
+                        14.6360551,
+                        0
+                    ],
+                    [
+                        121.0755651,
+                        14.6360362,
+                        0
+                    ],
+                    [
+                        121.0753244,
+                        14.6360163,
+                        0
+                    ],
+                    [
+                        121.0749583,
+                        14.6359864,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Moro Lorenzo Wy",
+                "styleUrl": "#line-F57C00-1200-nodesc",
+                "styleHash": "-1d106861",
+                "styleMapHash": {
+                    "normal": "#line-F57C00-1200-nodesc-normal",
+                    "highlight": "#line-F57C00-1200-nodesc-highlight"
+                },
+                "stroke": "#f57c00",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.0760086,
+                        14.6377559,
+                        0
+                    ],
+                    [
+                        121.0760828,
+                        14.6374105,
+                        0
+                    ],
+                    [
+                        121.0760906,
+                        14.637118,
+                        0
+                    ],
+                    [
+                        121.0760477,
+                        14.6366046,
+                        0
+                    ],
+                    [
+                        121.0760582,
+                        14.6364214,
+                        0
+                    ],
+                    [
+                        121.0760631,
+                        14.6360741,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Moro Lorenzo Wy",
+                "styleUrl": "#line-F57C00-1200-nodesc",
+                "styleHash": "-1d106861",
+                "styleMapHash": {
+                    "normal": "#line-F57C00-1200-nodesc-normal",
+                    "highlight": "#line-F57C00-1200-nodesc-highlight"
+                },
+                "stroke": "#f57c00",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.0747088,
+                        14.6378733,
+                        0
+                    ],
+                    [
+                        121.0751555,
+                        14.637862,
+                        0
+                    ],
+                    [
+                        121.0760118,
+                        14.637794,
+                        0
+                    ],
+                    [
+                        121.0761737,
+                        14.637794,
+                        0
+                    ],
+                    [
+                        121.0763239,
+                        14.6376827,
+                        0
+                    ],
+                    [
+                        121.0764254,
+                        14.6375411,
+                        0
+                    ],
+                    [
+                        121.0770847,
+                        14.6372033,
+                        0
+                    ],
+                    [
+                        121.0775101,
+                        14.6368987,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Loyola Drive",
+                "styleUrl": "#line-F9A825-1200-nodesc",
+                "styleHash": "5cba259f",
+                "styleMapHash": {
+                    "normal": "#line-F9A825-1200-nodesc-normal",
+                    "highlight": "#line-F9A825-1200-nodesc-highlight"
+                },
+                "stroke": "#f9a825",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.074946,
+                        14.6358445,
+                        0
+                    ],
+                    [
+                        121.0750026,
+                        14.6353047,
+                        0
+                    ],
+                    [
+                        121.0750533,
+                        14.6348329,
+                        0
+                    ],
+                    [
+                        121.0761145,
+                        14.6348272,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Gym Dwry and GS Ln",
+                "styleUrl": "#line-01579B-1200-nodesc",
+                "styleHash": "-78e1e9e1",
+                "styleMapHash": {
+                    "normal": "#line-01579B-1200-nodesc-normal",
+                    "highlight": "#line-01579B-1200-nodesc-highlight"
+                },
+                "stroke": "#01579b",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.0750533,
+                        14.6348329,
+                        0
+                    ],
+                    [
+                        121.0750515,
+                        14.6346808,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Gym Dwry and GS Ln",
+                "styleUrl": "#line-01579B-1200-nodesc",
+                "styleHash": "-78e1e9e1",
+                "styleMapHash": {
+                    "normal": "#line-01579B-1200-nodesc-normal",
+                    "highlight": "#line-01579B-1200-nodesc-highlight"
+                },
+                "stroke": "#01579b",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.0755519,
+                        14.6348271,
+                        0
+                    ],
+                    [
+                        121.0755499,
+                        14.6346563,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Gym Dwry and GS Ln",
+                "styleUrl": "#line-01579B-1200-nodesc",
+                "styleHash": "-78e1e9e1",
+                "styleMapHash": {
+                    "normal": "#line-01579B-1200-nodesc-normal",
+                    "highlight": "#line-01579B-1200-nodesc-highlight"
+                },
+                "stroke": "#01579b",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.0762891,
+                        14.6346195,
+                        0
+                    ],
+                    [
+                        121.0755401,
+                        14.6346365,
+                        0
+                    ],
+                    [
+                        121.0750515,
+                        14.6346808,
+                        0
+                    ],
+                    [
+                        121.074674,
+                        14.6346818,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "To Gate 1",
+                "styleUrl": "#line-7CB342-1200-nodesc",
+                "styleHash": "-770fe8e1",
+                "styleMapHash": {
+                    "normal": "#line-7CB342-1200-nodesc-normal",
+                    "highlight": "#line-7CB342-1200-nodesc-highlight"
+                },
+                "stroke": "#7cb342",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.0761145,
+                        14.6348272,
+                        0
+                    ],
+                    [
+                        121.0762216,
+                        14.6348351,
+                        0
+                    ],
+                    [
+                        121.0762577,
+                        14.6348516,
+                        0
+                    ],
+                    [
+                        121.0762724,
+                        14.6347732,
+                        0
+                    ],
+                    [
+                        121.0762891,
+                        14.6346195,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Gym Dwry and GS Ln",
+                "styleUrl": "#line-01579B-1200-nodesc",
+                "styleHash": "-78e1e9e1",
+                "styleMapHash": {
+                    "normal": "#line-01579B-1200-nodesc-normal",
+                    "highlight": "#line-01579B-1200-nodesc-highlight"
+                },
+                "stroke": "#01579b",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.0746978,
+                        14.6405426,
+                        0
+                    ],
+                    [
+                        121.075129,
+                        14.6405218,
+                        0
+                    ],
+                    [
+                        121.0756849,
+                        14.6406294,
+                        0
+                    ],
+                    [
+                        121.0760932,
+                        14.6408653,
+                        0
+                    ],
+                    [
+                        121.0762529,
+                        14.6409606,
+                        0
+                    ],
+                    [
+                        121.0764368,
+                        14.6410536,
+                        0
+                    ],
+                    [
+                        121.0767518,
+                        14.6411272,
+                        0
+                    ],
+                    [
+                        121.0770912,
+                        14.6410621,
+                        0
+                    ],
+                    [
+                        121.0775337,
+                        14.6408119,
+                        0
+                    ],
+                    [
+                        121.0781691,
+                        14.6404825,
+                        0
+                    ],
+                    [
+                        121.0793429,
+                        14.6398192,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "University Road",
+                "styleUrl": "#line-006064-1200-nodesc",
+                "styleHash": "-5c39aa81",
+                "styleMapHash": {
+                    "normal": "#line-006064-1200-nodesc-normal",
+                    "highlight": "#line-006064-1200-nodesc-highlight"
+                },
+                "stroke": "#006064",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.0793954,
+                        14.6397806,
+                        0
+                    ],
+                    [
+                        121.0799104,
+                        14.6395031,
+                        0
+                    ],
+                    [
+                        121.080164,
+                        14.6394333,
+                        0
+                    ],
+                    [
+                        121.0804098,
+                        14.6394956,
+                        0
+                    ],
+                    [
+                        121.0805854,
+                        14.6396786,
+                        0
+                    ],
+                    [
+                        121.0806751,
+                        14.6397598,
+                        0
+                    ],
+                    [
+                        121.080839,
+                        14.6396314,
+                        0
+                    ],
+                    [
+                        121.0809014,
+                        14.6395427,
+                        0
+                    ],
+                    [
+                        121.0809501,
+                        14.6394805,
+                        0
+                    ],
+                    [
+                        121.0809345,
+                        14.6394087,
+                        0
+                    ],
+                    [
+                        121.080878,
+                        14.6393616,
+                        0
+                    ],
+                    [
+                        121.0808155,
+                        14.6393842,
+                        0
+                    ],
+                    [
+                        121.0808077,
+                        14.6394389,
+                        0
+                    ],
+                    [
+                        121.0808546,
+                        14.6394974,
+                        0
+                    ],
+                    [
+                        121.0809053,
+                        14.6395409,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Dormitory Dr",
+                "styleUrl": "#line-817717-1200-nodesc",
+                "styleHash": "-23592ee1",
+                "styleMapHash": {
+                    "normal": "#line-817717-1200-nodesc-normal",
+                    "highlight": "#line-817717-1200-nodesc-highlight"
+                },
+                "stroke": "#817717",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.0798726,
+                        14.6395213,
+                        0
+                    ],
+                    [
+                        121.0798452,
+                        14.6391986,
+                        0
+                    ],
+                    [
+                        121.0799603,
+                        14.6390042,
+                        0
+                    ],
+                    [
+                        121.0800247,
+                        14.6389079,
+                        0
+                    ],
+                    [
+                        121.0800423,
+                        14.638857,
+                        0
+                    ],
+                    [
+                        121.0801574,
+                        14.638823,
+                        0
+                    ],
+                    [
+                        121.0802159,
+                        14.6386795,
+                        0
+                    ],
+                    [
+                        121.0801925,
+                        14.6385984,
+                        0
+                    ],
+                    [
+                        121.0801066,
+                        14.6385927,
+                        0
+                    ],
+                    [
+                        121.0800481,
+                        14.6386286,
+                        0
+                    ],
+                    [
+                        121.0800306,
+                        14.6387418,
+                        0
+                    ],
+                    [
+                        121.0800442,
+                        14.638857,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Paseo de Reily",
+                "styleUrl": "#line-795548-1200-nodesc",
+                "styleHash": "-40464641",
+                "styleMapHash": {
+                    "normal": "#line-795548-1200-nodesc-normal",
+                    "highlight": "#line-795548-1200-nodesc-highlight"
+                },
+                "stroke": "#795548",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.0800481,
+                        14.6386286,
+                        0
+                    ],
+                    [
+                        121.0800267,
+                        14.6384172,
+                        0
+                    ],
+                    [
+                        121.0800423,
+                        14.6381643,
+                        0
+                    ],
+                    [
+                        121.0800822,
+                        14.6378399,
+                        0
+                    ],
+                    [
+                        121.0801323,
+                        14.6374035,
+                        0
+                    ],
+                    [
+                        121.0797071,
+                        14.6373469,
+                        0
+                    ],
+                    [
+                        121.0793774,
+                        14.6373866,
+                        0
+                    ],
+                    [
+                        121.0791414,
+                        14.6374111,
+                        0
+                    ],
+                    [
+                        121.0788916,
+                        14.6374434,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Paseo de Reily",
+                "styleUrl": "#line-795548-1200-nodesc",
+                "styleHash": "-40464641",
+                "styleMapHash": {
+                    "normal": "#line-795548-1200-nodesc-normal",
+                    "highlight": "#line-795548-1200-nodesc-highlight"
+                },
+                "stroke": "#795548",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.0782734,
+                        14.637942,
+                        0
+                    ],
+                    [
+                        121.0785075,
+                        14.6376296,
+                        0
+                    ],
+                    [
+                        121.0786226,
+                        14.6375135,
+                        0
+                    ],
+                    [
+                        121.0788916,
+                        14.6374434,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Paseo de Reily",
+                "styleUrl": "#line-795548-1200-nodesc",
+                "styleHash": "-40464641",
+                "styleMapHash": {
+                    "normal": "#line-795548-1200-nodesc-normal",
+                    "highlight": "#line-795548-1200-nodesc-highlight"
+                },
+                "stroke": "#795548",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.0811897,
+                        14.637042,
+                        0
+                    ],
+                    [
+                        121.0808795,
+                        14.6369061,
+                        0
+                    ],
+                    [
+                        121.0807703,
+                        14.6367834,
+                        0
+                    ],
+                    [
+                        121.080743,
+                        14.6364908,
+                        0
+                    ],
+                    [
+                        121.0806903,
+                        14.6361794,
+                        0
+                    ],
+                    [
+                        121.0806279,
+                        14.6360209,
+                        0
+                    ],
+                    [
+                        121.0804582,
+                        14.6359171,
+                        0
+                    ],
+                    [
+                        121.080345,
+                        14.6359171,
+                        0
+                    ],
+                    [
+                        121.0799088,
+                        14.6360501,
+                        0
+                    ],
+                    [
+                        121.0794679,
+                        14.6362502,
+                        0
+                    ],
+                    [
+                        121.0787618,
+                        14.6365937,
+                        0
+                    ],
+                    [
+                        121.0784965,
+                        14.6367032,
+                        0
+                    ],
+                    [
+                        121.0782585,
+                        14.6367145,
+                        0
+                    ],
+                    [
+                        121.0773261,
+                        14.6366126,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Seminary Drive",
+                "styleUrl": "#line-558B2F-1200-nodesc",
+                "styleHash": "-d82601",
+                "styleMapHash": {
+                    "normal": "#line-558B2F-1200-nodesc-normal",
+                    "highlight": "#line-558B2F-1200-nodesc-highlight"
+                },
+                "stroke": "#558b2f",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.080345,
+                        14.6359171,
+                        0
+                    ],
+                    [
+                        121.0804181,
+                        14.6357642,
+                        0
+                    ],
+                    [
+                        121.0804961,
+                        14.6356679,
+                        0
+                    ],
+                    [
+                        121.0805937,
+                        14.635549,
+                        0
+                    ],
+                    [
+                        121.0807068,
+                        14.6354943,
+                        0
+                    ],
+                    [
+                        121.0808277,
+                        14.635432,
+                        0
+                    ],
+                    [
+                        121.0811047,
+                        14.6355037,
+                        0
+                    ],
+                    [
+                        121.0812667,
+                        14.6355037,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Seminary Drive",
+                "styleUrl": "#line-558B2F-1200-nodesc",
+                "styleHash": "-d82601",
+                "styleMapHash": {
+                    "normal": "#line-558B2F-1200-nodesc-normal",
+                    "highlight": "#line-558B2F-1200-nodesc-highlight"
+                },
+                "stroke": "#558b2f",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.0747191,
+                        14.6407829,
+                        0
+                    ],
+                    [
+                        121.0749454,
+                        14.6410113,
+                        0
+                    ],
+                    [
+                        121.0749454,
+                        14.6411472,
+                        0
+                    ],
+                    [
+                        121.07492,
+                        14.641368,
+                        0
+                    ],
+                    [
+                        121.0749122,
+                        14.6415001,
+                        0
+                    ],
+                    [
+                        121.0749961,
+                        14.6417039,
+                        0
+                    ],
+                    [
+                        121.075081,
+                        14.6418685,
+                        0
+                    ],
+                    [
+                        121.0754994,
+                        14.6420686,
+                        0
+                    ],
+                    [
+                        121.0756418,
+                        14.6420856,
+                        0
+                    ],
+                    [
+                        121.075874,
+                        14.6419799,
+                        0
+                    ],
+                    [
+                        121.0761197,
+                        14.6419808,
+                        0
+                    ],
+                    [
+                        121.076189,
+                        14.6419638,
+                        0
+                    ],
+                    [
+                        121.0766453,
+                        14.6419482,
+                        0
+                    ],
+                    [
+                        121.077013,
+                        14.6418718,
+                        0
+                    ],
+                    [
+                        121.077275,
+                        14.6417718,
+                        0
+                    ],
+                    [
+                        121.077554,
+                        14.641853,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Northwest Diversion Rd",
+                "styleUrl": "#line-0F9D58-1200-nodesc",
+                "styleHash": "-1bd1a741",
+                "styleMapHash": {
+                    "normal": "#line-0F9D58-1200-nodesc-normal",
+                    "highlight": "#line-0F9D58-1200-nodesc-highlight"
+                },
+                "stroke": "#0f9d58",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.0771431,
+                        14.6410551,
+                        0
+                    ],
+                    [
+                        121.0775761,
+                        14.6418516,
+                        0
+                    ],
+                    [
+                        121.0776425,
+                        14.6418667,
+                        0
+                    ],
+                    [
+                        121.0778727,
+                        14.6417742,
+                        0
+                    ],
+                    [
+                        121.0781602,
+                        14.64166,
+                        0
+                    ],
+                    [
+                        121.0788342,
+                        14.6413253,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Father Arrupe Rd",
+                "styleUrl": "#line-FFD600-1200-nodesc",
+                "styleHash": "6b4c851f",
+                "styleMapHash": {
+                    "normal": "#line-FFD600-1200-nodesc-normal",
+                    "highlight": "#line-FFD600-1200-nodesc-highlight"
+                },
+                "stroke": "#ffd600",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        121.0783616,
+                        14.6404159,
+                        0
+                    ],
+                    [
+                        121.0788342,
+                        14.6413253,
+                        0
+                    ],
+                    [
+                        121.0798695,
+                        14.6408424,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Parade Loop",
+                "styleUrl": "#line-FF5252-1200-nodesc",
+                "styleHash": "2fc201bf",
+                "styleMapHash": {
+                    "normal": "#line-FF5252-1200-nodesc-normal",
+                    "highlight": "#line-FF5252-1200-nodesc-highlight"
+                },
+                "stroke": "#ff5252",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.0746541,
+                    14.6346903,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Gate 1",
+                "styleUrl": "#icon-1899-0288D1-nodesc",
+                "styleHash": "48999a20",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-nodesc-normal",
+                    "highlight": "#icon-1899-0288D1-nodesc-highlight"
+                },
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.0745788,
+                    14.6358182,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Gate 2",
+                "styleUrl": "#icon-1899-880E4F-nodesc",
+                "styleHash": "481c0cf0",
+                "styleMapHash": {
+                    "normal": "#icon-1899-880E4F-nodesc-normal",
+                    "highlight": "#icon-1899-880E4F-nodesc-highlight"
+                },
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.0746662,
+                    14.6368528,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Gate 2.5",
+                "styleUrl": "#icon-1899-4E342E-nodesc",
+                "styleHash": "-7dd9dd54",
+                "styleMapHash": {
+                    "normal": "#icon-1899-4E342E-nodesc-normal",
+                    "highlight": "#icon-1899-4E342E-nodesc-highlight"
+                },
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.0745905,
+                    14.6374308,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Gate 2.5 Exit",
+                "styleUrl": "#icon-1899-673AB7-nodesc",
+                "styleHash": "709c65ea",
+                "styleMapHash": {
+                    "normal": "#icon-1899-673AB7-nodesc-normal",
+                    "highlight": "#icon-1899-673AB7-nodesc-highlight"
+                },
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.0746613,
+                    14.6405448,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Gate 2.9, 3, 3.1, 3.2",
+                "styleUrl": "#icon-1899-E65100-nodesc",
+                "styleHash": "742c701c",
+                "styleMapHash": {
+                    "normal": "#icon-1899-E65100-nodesc-normal",
+                    "highlight": "#icon-1899-E65100-nodesc-highlight"
+                },
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.074672,
+                    14.6407417,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Gate 3.5",
+                "styleUrl": "#icon-1899-097138-nodesc",
+                "styleHash": "3aea50b2",
+                "styleMapHash": {
+                    "normal": "#icon-1899-097138-nodesc-normal",
+                    "highlight": "#icon-1899-097138-nodesc-highlight"
+                },
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.0807069,
+                    14.6468939,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Gate 5",
+                "styleUrl": "#icon-1899-757575-nodesc",
+                "styleHash": "5e61f8d6",
+                "styleMapHash": {
+                    "normal": "#icon-1899-757575-nodesc-normal",
+                    "highlight": "#icon-1899-757575-nodesc-highlight"
+                },
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.0816928,
+                    14.636308,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Gate 6",
+                "styleUrl": "#icon-1899-A52714-nodesc",
+                "styleHash": "-45705a06",
+                "styleMapHash": {
+                    "normal": "#icon-1899-A52714-nodesc-normal",
+                    "highlight": "#icon-1899-A52714-nodesc-highlight"
+                },
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.0794312,
+                    14.6423568,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Gate 4",
+                "styleUrl": "#icon-1899-FFEA00-nodesc",
+                "styleHash": "-24bbe026",
+                "styleMapHash": {
+                    "normal": "#icon-1899-FFEA00-nodesc-normal",
+                    "highlight": "#icon-1899-FFEA00-nodesc-highlight"
+                },
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+            }
+        }
+    ]
+}

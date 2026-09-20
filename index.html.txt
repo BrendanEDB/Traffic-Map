@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMU Live Checkbox Traffic Map</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com" />
+    <script src="https://unpkg.com"></script>
+    
+    <script src="https://cloudflare.com"></script>
+
+    <style>
+        html, body, #map { 
+            height: 100%; 
+            margin: 0; 
+            padding: 0; 
+            font-family: Arial, sans-serif;
+        }
+        .traffic-legend {
+            background: white;
+            padding: 10px;
+            line-height: 18px;
+            color: #555;
+            border-radius: 5px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+        .traffic-legend i {
+            width: 18px;
+            height: 12px;
+            float: left;
+            margin-right: 8px;
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="map"></div>
+
+    <script>
+        const map = L.map('map').setView([14.639537, 121.078540], 16); 
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        const SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRrhXbfqYyiNZTk-n89SKthWzK8qojVKhg92g_bxQmqzCxa1jQ05hJbsm9bQ8WDHwIvnJ0u03awlmNq/pubhtml";
+        
+        const GEOJSON_FILE = "roads.geojson"; 
+
+        const trafficColors = {
+            "light": "#22c55e",       // Vibrant Green
+            "moderate": "#eab308",    // Warning Yellow
+            "heavy": "#ef4444",       // Alert Red
+            "no_data": "#9ca3af"      // Muted Gray
+        };
+
+        Promise.all([
+            fetch(GEOJSON_FILE).then(res => res.json()),
+            new Promise((resolve) => {
+                Papa.parse(SHEET_CSV_URL, {
+                    download: true,
+                    header: true,
+                    complete: (results) => resolve(results.data)
+                });
+            })
+        ]).then(([geojsonData, sheetData]) => {
+            
+            const roadTrafficMap = {};
+
+            sheetData.forEach(row => {
+                
+                // Process 'Light Traffic' Checkbox Column
+                if (row['Light Traffic']) {
+                    const roadsList = row['Light Traffic'].split(',');
+                    roadsList.forEach(road => {
+                        const cleanRoadName = road.trim().toLowerCase();
+                        if (cleanRoadName) roadTrafficMap[cleanRoadName] = "LIGHT TRAFFIC";
+                    });
+                }
+
+                // Process 'Moderate Traffic' Checkbox Column
+                if (row['Moderate Traffic']) {
+                    const roadsList = row['Moderate Traffic'].split(',');
+                    roadsList.forEach(road => {
+                        const cleanRoadName = road.trim().toLowerCase();
+                        if (cleanRoadName) roadTrafficMap[cleanRoadName] = "MODERATE TRAFFIC";
+                    });
+                }
+
+                // Process 'Heavy Traffic' Checkbox Column
+                if (row['Heavy Traffic']) {
+                    const roadsList = row['Heavy Traffic'].split(',');
+                    roadsList.forEach(road => {
+                        const cleanRoadName = road.trim().toLowerCase();
+                        if (cleanRoadName) roadTrafficMap[cleanRoadName] = "HEAVY TRAFFIC";
+                    });
+                }
+            });
+
+            L.geoJSON(geojsonData, {
+                style: function (feature) {
+                    const roadName = feature.properties.name ? feature.properties.name.trim().toLowerCase() : "";
+                    const currentStatus = roadTrafficMap[roadName] || "NO_DATA";
+                    
+                    let strokeColor = trafficColors["no_data"];
+                    if (currentStatus === "LIGHT TRAFFIC") strokeColor = trafficColors["light"];
+                    else if (currentStatus === "MODERATE TRAFFIC") strokeColor = trafficColors["moderate"];
+                    else if (currentStatus === "HEAVY TRAFFIC") strokeColor = trafficColors["heavy"];
+
+                    return {
+                        color: strokeColor,
+                        weight: 6,
+                        opacity: 0.85,
+                        lineCap: 'round'
+                    };
+                },
+                onEachFeature: function (feature, layer) {
+                    if (feature.properties && feature.properties.name) {
+                        const roadName = feature.properties.name;
+                        const cleanName = roadName.trim().toLowerCase();
+                        const currentStatus = roadTrafficMap[cleanName] || "NO RECENT REPORTS";
+                        
+                        layer.bindPopup(`<strong>Street/Gate:</strong> ${roadName}<br><strong>Current Traffic:</strong> ${currentStatus}`);
+                    }
+                }
+            }).addTo(map);
+
+            const legend = L.control({position: 'bottomright'});
+            legend.onAdd = function () {
+                const div = L.DomUtil.create('div', 'traffic-legend');
+                div.innerHTML += '<h4>Traffic Status</h4>';
+                div.innerHTML += `<i style="background: ${trafficColors.light}"></i> Light Traffic<br>`;
+                div.innerHTML += `<i style="background: ${trafficColors.moderate}"></i> Moderate Traffic<br>`;
+                div.innerHTML += `<i style="background: ${trafficColors.heavy}"></i> Heavy Traffic<br>`;
+                div.innerHTML += `<i style="background: ${trafficColors.no_data}"></i> No Data Available<br>`;
+                return div;
+            };
+            legend.addTo(map);
+
+        }).catch(err => console.error("Error drawing checkbox traffic map:", err));
+    </script>
+</body>
+</html>
